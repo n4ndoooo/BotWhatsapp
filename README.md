@@ -14,4 +14,5 @@
 
 ### Imagenes:
 
-<img href="https://imgur.com/m4Zxq52.png" alt="ejemplo">
+<img src="ejemplo" alt="ejemplo">
+<img src="ejemplo2" alt="ejemplo2">
