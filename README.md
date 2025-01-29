@@ -13,3 +13,5 @@
 > el cual va a generar un codigo QR el cual debes de escanear para darle acceso al bot.
 
 ### Imagenes:
+
+<img href="https://imgur.com/m4Zxq52.png" alt="ejemplo">
