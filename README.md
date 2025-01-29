@@ -14,5 +14,5 @@
 
 ### Imagenes:
 
-<img src="ejemplo" alt="ejemplo">
-<img src="ejemplo2" alt="ejemplo2">
+<img src="ejemplo.jpg" alt="ejemplo">
+<img src="ejemplo2.jpg" alt="ejemplo2">
