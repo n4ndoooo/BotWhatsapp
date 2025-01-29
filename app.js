@@ -19,8 +19,16 @@ client.on('ready', () => {
 });
 
 client.on('message', async message => {
+
+    if(message.body === 'hola') {
+		client.sendMessage(message.from, '*Hola soy un Bot creado por @n4ndooou, para conocer mis comandos usa [-menu]*\n\n👉 *Github: https://github.com/n4ndoooo*\n👉 *Pagina Web: https://n4ndoooo.github.io/*');
+	}
+
+    if(message.body === '-menu') {
+		client.sendMessage(message.from, '*Lista de comandos:*\n\n-s (para la creacion de stickers)');
+	}
     
-    if(message.body === '!s') {
+    if(message.body === '-s') {
         if(message.hasMedia) {
             const downloaded = await message.downloadMedia()
             const buffer = Buffer.from(downloaded.data, "base64");
@@ -42,18 +50,14 @@ client.on('message', async message => {
 
                 await message.reply(downloaded, null, {
                     sendMediaAsSticker:true,
-                    stickerAuthor: "🦐🦐🦐",
-                    stickerName: "Camar-on Stickers"
+                    stickerAuthor: "🐐",
+                    stickerName: "IG: n4ndooou"
                 })
         } else {
-            await client.sendMessage(message.from, '🌊🦐 | *Lo siento, no encontré ninguna imagen para convertir en sticker*');
+            await client.sendMessage(message.from, '❌ | *Lo siento, no encontré ninguna imagen/video..*');
             message.react("❌")
         }
     }
-
-	if(message.body === 'hola') {
-		client.sendMessage(message.from, '*Hola! soy un Bot, Para crear tu sticker enviame una imagen/video con el comando !s*');
-	}
 });
 
 client.initialize();
