@@ -12,6 +12,10 @@
 > Ahora para prender el bot, solo hace falta escribir el comando: `node app.js`
 > el cual va a generar un codigo QR el cual debes de escanear para darle acceso al bot.
 
+### Comandos:
+- Por ahora es un simple bot de Stickers, al mandarle un documento, video e imagen con el comando [-s] este te enviara un sticker
+
+
 ### Imagenes:
 
 <img src="ejemplo.jpg" alt="ejemplo">
