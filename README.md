@@ -3,7 +3,7 @@
 
 ### Instalacion:
 > Es necesario tener instalada la ultima version de NodeJS para instalar estas librerias:
-
+> `npm i libreria`
 - @ffmpeg-installer/ffmpeg
 - qrcode-terminal
 - whatsapp-web.js
